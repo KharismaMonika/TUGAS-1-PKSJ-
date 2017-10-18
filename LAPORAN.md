@@ -112,7 +112,18 @@ ___
  17.	Memilih “Something else” untuk menentukan partisi dan alokasi sendiri.
  18.	Disini anda dapat melihat daftar harddisk. “/dev/sda” berarti harddisk pertama. Jika menghubungkan PC dengan 2 harddisk, maka akan tampil “dev/sdb”.
  19.	Klik harddisk yang akan di-install Ubuntu, lalu klik “newPartition Table” untuk membuat Partisi. Klik continue ketika muncul pesan konfirmasi untuk membuat partisi baru
- 
+ 20.	Pada tampilan terlihat alokasi hardisk yang tersedia, yaitu 8.5GB. klik pada baris tersebut lalu klik tombol “+” untuk membuat partisi baru.
+ 21.	Berikut kita membuat partisi untuk swap, dengan alokasi 1GB. Klik “OK” untuk melanjutkan.
+ 22.	Partisi swap berhasil dibuat, klik “free space” lagi dan klik tombol “+” untuk membuat partisi baru lagi.
+ 23.	Selanjutnya kita membuat partisi dengan format Ext4 yang akan digunakan sebagai root folder “/” sebesar 7.5GB. Root folder “/” akan berisikan filesystem dan direktori home. Klik “OK” untuk lanjut.
+ 24.	Hasil akhir partisi akan sebagai berikut.
+ 25.	Anda juga dapat memisahkan direktori home anda dengan partisi lain dari root folder.
+ 26.	 ketika akan menyimpan perubahan partisi. klik “Continue” untuk lanjut.
+ 27.	Pilih zona waktu yang anda inginkan dengan klik pada peta, lalu klik “Continue”.
+ 28.	Pilih layout keyboard yang sesuai dengan keyboard anda, lalu klik “Continue”.
+ 29.	Isikan detail user yang akan digunakan pertama kali, lalu klik “Continue”.
+ 30.	Silakan tunggu sampai proses instalasi selesai.
+
 * ### INSTALASI SSH SERVER
 * ### INSTALASI HYDRA
 * ### INSTALASI NCRACK
