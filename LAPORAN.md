@@ -157,6 +157,10 @@ ___
  30.	Silakan tunggu sampai proses instalasi selesai.
 
 * ### INSTALASI SSH SERVER
+Pada ubuntu server : 
+ 1. Ketikkan ''' sudo apt-get install openssh-server '''
+ 2. Masukkan password
+ 
 * ### INSTALASI HYDRA
 * ### INSTALASI NCRACK
 * ### MEMBUAT DAN DOWNLOAD DICTIONARY PASSWORD
