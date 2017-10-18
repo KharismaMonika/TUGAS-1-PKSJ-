@@ -3,6 +3,8 @@
 - 5114100092    KHARISMA MONIKA
 - 5114100131    Michael Dave
 
+___
+
 ## PENDAHULUAN
 ### LATAR BELAKANG
 Sebuah sistem pasti memiliki aturan untuk memasuki sistem. Salah satu aturan adalah menggunakan autentikasi. Autentikasi yang digunakan biasanya menggunakan username dan password. Namun menggunakan authentikasi belum dapat mengamankan sebuah sistem. Sistem dapat diserang dengan menggunakan percobaan memasukkan password yang mungkin. Salah satu algoritma untuk membobol password sistem adalah dengan menggunakan brute force attack. Tools yang dapat digunakan untuk melakukan brute force attack adalah Hydra dan Ncrack.
@@ -17,6 +19,9 @@ Dalam uji coba ini, dilakukan penetrasi menggunakan bruteforce attack menggunaka
  2 Melakukan implementasi Fail2ban untuk mengamankan server.
 ### MANFAAT
 * Menerapkan ilmu pengetahuan yang dipelajari mengenai keamanan server.
+
+___
+
 ## DASAR TEORI
 * ### PENETRASI
 
@@ -80,6 +85,8 @@ Fitur Ncrack mencakup antarmuka yang sangat fleksibel yang memberi pengguna kont
 
 Fail2Ban adalah kerangka kerja perangkat lunak pencegahan intrusi yang melindungi server komputer dari serangan brute force. Ditulis dalam bahasa pemrograman Python, ia dapat berjalan pada sistem POSIX yang memiliki antarmuka ke sistem kontrol paket atau firewall yang terpasang secara lokal, misalnya iptables atau TCP Wrapper.
 
+___
+
 ## IMPLEMENTASI
 * ### INTALASI UBUNTU SERVER
 
@@ -110,6 +117,9 @@ Fail2Ban adalah kerangka kerja perangkat lunak pencegahan intrusi yang melindung
 * ### INSTALASI HYDRA
 * ### INSTALASI NCRACK
 * ### MEMBUAT DAN DOWNLOAD DICTIONARY PASSWORD
+
+___
+
 ## HASIL UJI COBA
 * ### Uji Penetrasi 1 : menggunakan hydra + username: risma + dictionary 1 + tanpa fail2ban
 * ### Uji Penetrasi 2 : menggunakan hydra + username: risma +  dictionary 2 + tanpa fail2ban
@@ -119,6 +129,9 @@ Fail2Ban adalah kerangka kerja perangkat lunak pencegahan intrusi yang melindung
 * ### Uji Penetrasi 6 : menggunakan hydra + username: risma +  dictionary 2 + dengan fail2ban
 * ### Uji Penetrasi 7 : menggunakan ncrack + username: risma +  dictionary 1 + dengan fail2ban
 * ### Uji Penetrasi 8 : menggunakan ncrack + username: risma +  dictionary 2 + dengan fail2ban
+
+___
+
 ## PENUTUP
 * ### KESIMPULAN
 * ### SARAN
