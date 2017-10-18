@@ -88,7 +88,42 @@ ___
 * ### INTALASI UBUNTU SERVER
 
  1.	Download Ubuntu Server pada https://www.ubuntu.com/download/server/thank-you?country=ID&version=16.04.3&architecture=amd64
- 
+ 2. Buka VirtualBox
+ 3.	Klik New kemudian isikan nama, type, versi
+ 4.	Atur Ram . Sesuaikan pengaturan ram dengan spesifikasi hardware yang kita pakai, semakin besar ram yang kita alokasikan untuk virtual ubuntu server ini maka akan semakin cepat pula proses instalasi dan kinerjanya. Namun yang harus diingat adalah tidak boleh menghabiskan resource ram yang kita miliki. Semisal ram pada pc kita 6 gb kita bisa mengalokasikan 2 gb untuk virtual ubuntu server ini
+ 5.	Selanjutnya mensetting DISK DRIVE sebagai penyimpanan file system virtualisasi Ubuntu server. Pilih create a virtual hard disk now untuk membuat virtual penyimpanan
+ 6.	di bagian Storage on physical hard disk pilh Dynamically Allocated. Karena dengan begitu kita dapat lebih fleksibel dalam menggunakan virtual ruang penyimpanan
+ 7.	Mengatur tempat penyimpanan virtual ubuntu server dan kapasitas penyimpanan
+ 8.	Jalankan konfigurasi VirtualBox yang sebelumnya sudah di buat , kemudian masukan image iso ubuntu server 
+ 9.	Setelah image iso sudah di masukan kemudian klik start untuk memulai proses instalasi
+ 10.	Memilih bahasa
+ 11.	Klik install ubuntu server
+ 12.	Memilih bahasa yang gunakan saat proses intallasi
+ 13.	memilih lokasi, ini bertujuan untuk menentukan waktu pada ubuntu server
+ 14.	pilih benua atau wilayah asia karna Indonesia berada di asia tenggara
+ 15.	Pilih negara indonesia
+ 16.	Pilih United states
+ 17.	Deteksi keyboard yang kita gunakan, pilih no karna nantinya kita akan memasukan type keyboard secara manual
+ 18.	Pilih English (US). ini adalah keyboard yang umum digunakan oleh semua orang.
+ 19.	Pilih kembali English (us)
+ 20.	Masukan Hostname untuk system, masukan hostname tanpa spasi kemudian klik Continue
+ 21.	Masukan nama untuk user baru
+ 22.	Masukan username untuk user baru
+ 23.	Masukan password untuk user baru
+ 24.	Masukan ulang password untuk akun baru
+ 25.	Enkripsi directory home | system akan mengekripsi home jika kondisi anda belum masuk ke dalam system dan akan membuka enkripsi jika kita sudah masuk ke dalam system. Pilih no
+ 26.	Konfigurasi waktu | jika terdapat informasi pada layar yang menampilkan bahwa zona waktu anda adalah asia/Jakarta maka sudah benar. Kemudian pilih yes
+ 27.	Melakukan pertisi hardisk
+ 28.	Memilih disk yang akan di partisi
+ 29.	Klik yes
+ 30.	Masukan ukuran disk yang akan di gunakan untuk menginstall ubuntu server
+ 31.	Jika sudah selesai mengatur partisi disk, selanjutnya akan terdapat informasi pertisi yang sudah kita buat dan kemudian jika sudah yakin dengan partisi tersebut dan disk akan di format maka klik yes
+ 32.	Mengatur pembaruan pada system ubuntu server pilih no automatic update
+ 33.	Memilih software yang akan di pasang pada ubuntu server
+ 34.	Install GRUB boot | Klik yes
+ 35.	Jika instalasi telah selesai klik continue dan Virtualbox akan terestar kemudian coba login ke dalam sistem
+ 36.	Masukan username dan password yang sebelumnya telah di buat saat proses instalasi
+
 * ### INSTALASI UBUNTU DEKSTOP
  1.	Download pada https://www.ubuntu.com/download
  2.	Membuat Virtual mesin dengan OS Ubuntu Dekstop 16.04. Mengisi nama virtual machine, type dan versi OS yang akan diinstall.
