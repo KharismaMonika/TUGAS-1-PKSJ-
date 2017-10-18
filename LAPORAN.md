@@ -82,7 +82,30 @@ Fail2Ban adalah kerangka kerja perangkat lunak pencegahan intrusi yang melindung
 
 ## IMPLEMENTASI
 * ### INTALASI UBUNTU SERVER
+
+ 1.	Download Ubuntu Server pada https://www.ubuntu.com/download/server/thank-you?country=ID&version=16.04.3&architecture=amd64
+ 
 * ### INSTALASI UBUNTU DEKSTOP
+ 1.	Download pada https://www.ubuntu.com/download
+ 2.	Membuat Virtual mesin dengan OS Ubuntu Dekstop 16.04. Mengisi nama virtual machine, type dan versi OS yang akan diinstall.
+ 3.	Mengatur ukuran memory RAM
+ 4.	Membuat virtual hard disk
+ 5.	Memilih tipe file hard disk. Ada banyak tipe Harddisk virtual, disini kita menggunakan VDI yaitu tipe standard yang digunakan VirtualBox,
+ 6.	Dynamically Allocated, hanya menggunakan alokasi harddisk yang terpakai. Sedangkan Fixed size akan mengalokasikan harddisk sesuai yang anda buat. Misalkan anda membuat harddisk dengan kapasitas 50GB, sedangkan yang terpakai hanya 20GB. Pada dynamic, harddisk real anda akan berkurang kapasitasnya 50GB, sedangkan pada Fixed, akan berkurang 20GB.
+ 7.	Tentukan nama harddisk virtual anda beserta ukurannya. Untuk Ubuntu saja, 8GB sudah cukup
+ 8.	Virtual Machine telah dibuat. Tinggal menambahkan file ISO Ubuntu untuk booting pertama kali. Klik Setting dan ikuti langkah selanjutnya.
+ 9.	Klik Storage.
+ 10.	Klik tombol CD disebelah Controller IDE.
+ 11.	Klik Choose disk untuk memilih file ISO Ubuntu.
+ 12.	Pilih file .iso Ubuntu, lalu klik open.
+ 13.	Klik OK.
+ 14.	Klik tombol start untuk booting menggunakan Ubuntu pada Virtual Machine yang telah kita buat.
+ 15.	Pilih bahasa yang akan digunakan pada Ubuntu.
+ 16.	Jika anda terhubung ke internet, dan ingin meng-install driver seperti graphic, Wifi, MP3 dan lainnya silakan centang pada pilihan kedua, jida tidak langsung klik “Continue”.
+ 17.	Memilih “Something else” untuk menentukan partisi dan alokasi sendiri.
+ 18.	Disini anda dapat melihat daftar harddisk. “/dev/sda” berarti harddisk pertama. Jika menghubungkan PC dengan 2 harddisk, maka akan tampil “dev/sdb”.
+ 19.	Klik harddisk yang akan di-install Ubuntu, lalu klik “newPartition Table” untuk membuat Partisi. Klik continue ketika muncul pesan konfirmasi untuk membuat partisi baru
+ 
 * ### INSTALASI SSH SERVER
 * ### INSTALASI HYDRA
 * ### INSTALASI NCRACK
