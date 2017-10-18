@@ -169,7 +169,7 @@ Pada Ubuntu desktop :
 * ### INSTALASI NCRACK
 * ### MEMBUAT DAN DOWNLOAD DICTIONARY PASSWORD
  1. Dictionary 1: membuat sendiri file txt berisi 5 list password
- 2 dictionary 2 : download list password berisi 100 list password
+ 2. Dictionary 2 : download list password berisi 100 list password
 Dalam hal ini sengaja digunakan list password yang sedikit karena untuk mempersingkat waktu penetrasi.
 
 
