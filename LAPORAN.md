@@ -118,7 +118,7 @@ ___
  23.	Selanjutnya kita membuat partisi dengan format Ext4 yang akan digunakan sebagai root folder “/” sebesar 7.5GB. Root folder “/” akan berisikan filesystem dan direktori home. Klik “OK” untuk lanjut.
  24.	Hasil akhir partisi akan sebagai berikut.
  25.	Anda juga dapat memisahkan direktori home anda dengan partisi lain dari root folder.
- 26.	 ketika akan menyimpan perubahan partisi. klik “Continue” untuk lanjut.
+ 26.	Ketika akan menyimpan perubahan partisi. klik “Continue” untuk lanjut.
  27.	Pilih zona waktu yang anda inginkan dengan klik pada peta, lalu klik “Continue”.
  28.	Pilih layout keyboard yang sesuai dengan keyboard anda, lalu klik “Continue”.
  29.	Isikan detail user yang akan digunakan pertama kali, lalu klik “Continue”.
