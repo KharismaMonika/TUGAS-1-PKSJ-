@@ -24,8 +24,11 @@ ___
 
 ## DASAR TEORI
 * ### PENETRASI
-
 Testing Penetrasi merupakan metode yang digunakan untuk mengevaluasi keamanan sistem atau jaringan komputer dengan melakukan sebuah simulasi penyerangan. Penetration testing merupakan seni dari pengujian sistem aplikasi web yang sedang berjalan, tanpa mengetahui apa yang dikerjakan di dalam (inner workings) aplikasi web itu sendiri. Seorang penguji berperan sebagai penyerang (attacker) dan berusaha untuk menemukan dan mengeksploitasi bagian dari aplikasi web yang memiliki sifat mudah diserang (vulnerabilities).
+
+* ### VIRTUAL BOX
+
+Oracle VM VirtualBox adalah perangkat lunak virtualisasi, yang dapat digunakan untuk mengeksekusi sistem operasi “tambahan” di dalam sistem operasi “utama”. Sebagai contoh, jika seseorang mempunyai sistem operasi MS Windows yang terpasang di komputernya, maka seseorang tersebut dapat pula menjalankan sistem operasi lain yang diinginkan di dalam sistem operasi MS Windows tersebut. Fungsi ini sangat penting jika seseorang ingin melakukan ujicoba dan simulasi instalasi suatu sistem tanpa harus kehilangan sistem yang ada. Aplikasi dengan fungsi sejenis VirtualBox lainnya adalah VMware dan Microsoft Virtual PC. Sistem operasi yang dapat menjalankannya antara lain Linux, Mac OS X, Windows XP, Windows Vista, Windows 7, Windows 8, Solaris, dan OpenSolaris
 
 * ### SERVER
 Pengertian server adalah sebuah sistem komputer yang menyediakan jenis layanan tertentu dalam sebuah jaringan komputer. Terkadang istilah server disebut sebagai web server. Namun umumnya orang lebih suka menyebutnya sebagai ‘server’ saja. Sebuah server didukung dengan prosesor yang bersifat scalable dan RAM yang besar, juga dilengkapi dengan sistem operasi khusus. Sistem operasi ini berbeda dengan sistem operasi yang biasanya. Jika kita biasa menggunakan sistem operasi windows, MacOS dll, maka sistem operasi dari server ini mungkin berbeda. Sistem Operasi dari server adalah sistem operasi jaringan atau network operating system. Server juga bertugas untuk menjalankan software administratif. Yakni software yang mengontrol akses terhadap jaringan dan sumber daya yang terdapat di dalamnya. Hal ini termasuk file atau alat pencetak (printer), dan memberikan akses kepada workstation anggota jaringan. Di dalam sistem operasi server, umumnya terdapat berbagai macam service yang menggunakan arsitektur klien/server. Contoh dari service yang diberikan oleh server ini antara lain Mail Server, DHCP Server, HTTP Server, DNS Server , FTP Server dan lain lain.
