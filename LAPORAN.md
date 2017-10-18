@@ -47,17 +47,11 @@ Cara Kerja SSH Server Pada saat suatu client mencoba mengakses suatu linux serve
 
 Berikut Tahapan-tahapannya / Proses Kerja SSH  : 
  1.	Client bind pada local port nomor besar dan melakukan koneksi ke port 22 pada server.
- 
  2.	Client dan server setuju untuk menggunakan sesi SSH tertentu. Hal ini penting karena SSH v.1 dan v.2 tidak kompatibel. 
-
  3.	Client meminta public key dan host key milik server. 
- 
  4.	Client dan server menyetujui algoritma enkripsi yang akan dipakai (misalnya TripleDES atau IDEA). 
- 
  5.	Client membentuk suatu session key yang didapat dari client dan mengenkripsinya menggunakan public key milik server. 
- 
  6.	Server men-decrypt session ky yang didapat dari client, meng-re-encrypt-nya dengan public key milik client, dan mengirimkannya kembali ke client untuk verifikasi.
- 
  7.	Pemakai mengotentikasi dirinya ke server di dalam aliran data terenkripsi dalam session key tersebut. Sampai disini koneksi telah terbentuk, dan client dapat selanjutnya bekerja secara interaktif pada server atau mentransfer file ke atau dari server.
 
 * ### BRUTE FORCE ATTACK
