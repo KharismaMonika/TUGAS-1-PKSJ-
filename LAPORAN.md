@@ -162,8 +162,16 @@ Pada ubuntu server :
  2. Masukkan password
  
 * ### INSTALASI HYDRA
+Pada Ubuntu desktop :
+ 1. sudo apt-get install hydra-gtk
+ 2. Masukkan password
+
 * ### INSTALASI NCRACK
 * ### MEMBUAT DAN DOWNLOAD DICTIONARY PASSWORD
+ 1. Dictionary 1: membuat sendiri file txt berisi 5 list password
+ 2 dictionary 2 : download list password berisi 100 list password
+Dalam hal ini sengaja digunakan list password yang sedikit karena untuk mempersingkat waktu penetrasi.
+
 
 ___
 
