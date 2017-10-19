@@ -191,13 +191,21 @@ ___
 
 * ### INSTALASI SSH SERVER
 Pada ubuntu server : 
- 1. Ketikkan ''' sudo apt-get install openssh-server '''
+ 1. Ketikkan " sudo apt-get install openssh-server "
+ 
+  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/install%20open%20ssh.PNG "Instalasi SSH Server")
+  
+
  2. Masukkan password
  
 * ### INSTALASI HYDRA
 Pada Ubuntu desktop :
  1. sudo apt-get install hydra-gtk
+ 
+  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/d662e77a60e4e042de428c2b23b7696d6b7aa5e1/SCREENSHOOT/install%20hydra%20gtk.PNG "Instalasi Hydra")
+  
  2. Masukkan password
+
 Pada Kali Linux Hydra sudah terinstall
 
 * ### INSTALASI NCRACK
@@ -220,7 +228,36 @@ ___
 
 ## HASIL UJI COBA
 * ### Uji Penetrasi 1 : menggunakan hydra + username: risma + dictionary 1 + tanpa fail2ban
+ 1. Memasukkan IP Target pada hydra
+ 
+  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji%20penetrasi1_1.PNG "IP Target")
+ 
+ 2. Memasukkan Username = risma,  Password Dictionary 1
+ 
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi1_2.PNG "Dictionary 1")
+ 
+ 3. Output penetrasi 1 pada hydra. Sukses Mendapatkan Password
+ 
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi1_3.PNG "Success")
+ 
+ 4. Output pada server, menunjukkan terdapat IP yang mencoba masuk ke dalam sistem.
+ 
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi1_4%20ketika%20dilihat%20dr%20sisi%20server.PNG "Server")
+ 
 * ### Uji Penetrasi 2 : menggunakan hydra + username: risma +  dictionary 2 + tanpa fail2ban
+
+ 1. Penetrasi menggunakan dictionary 2
+ 
+ ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi2_1%20dict.PNG "Dictionary 2")
+ 
+ 2. Output pada hydra
+ 
+ ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi2_2%20output%20hydra.PNG "Uji 2 sukses")
+ 
+ 3. Output pada server
+ 
+  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi2_3%20tampilan%20di%20server.PNG "Uji 2 Server") 
+ 
 * ### Uji Penetrasi 3 : menggunakan ncrack + username: risma + dictionary 1 + tanpa fail2ban
 * ### Uji Penetrasi 4 : menggunakan ncrack + username: risma + dictionary 2 + tanpa fail2ban
 * ### Uji Penetrasi 5 : menggunakan hydra + username: risma +  dictionary 1 + dengan fail2ban
