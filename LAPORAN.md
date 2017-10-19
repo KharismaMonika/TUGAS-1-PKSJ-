@@ -224,14 +224,22 @@ Pada Ubuntu desktop :
  4. /configure
  5. make
  6. make install
-Pada Kali Linux Ncrack sudah terinstall
+ 
+ Pada Kali Linux Ncrack sudah terinstall
 
 * ### MEMBUAT DAN DOWNLOAD DICTIONARY PASSWORD
  1. Dictionary 1: membuat sendiri file txt berisi 5 list password
  2. Dictionary 2 : download list password berisi 100 list password
 Dalam hal ini sengaja digunakan list password yang sedikit karena untuk mempersingkat waktu penetrasi.
 
+* ### INSTALASI FAIL2 BAND
+ 1. Ketikkan perintah pada terminal "sudo apt-get update"
+ 2. Ketikkan perintah untuk download "sudo apt-get install fail2ban"
 
+* ### MENGANTI KONFIGURASI PADA SSH
+ 1. 
+ 2.
+ 
 ___
 
 ## HASIL UJI COBA
@@ -276,14 +284,14 @@ ___
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi4_1.png "Uji Coba 4")
  
-* ### Uji Penetrasi 5 : menggunakan hydra + username: risma +  dictionary 1 + dengan fail2ban
-* ### Uji Penetrasi 6 : menggunakan hydra + username: risma +  dictionary 2 + dengan fail2ban
-* ### Uji Penetrasi 7 : menggunakan ncrack + username: michael2 +  dictionary 1 + dengan fail2ban
+* ### Uji Penetrasi 5 : menggunakan hydra + username: risma +  dictionary 1 + dengan fail2ban setting default
+* ### Uji Penetrasi 6 : menggunakan hydra + username: risma +  dictionary 2 + dengan fail2ban setting default
+* ### Uji Penetrasi 7 : menggunakan ncrack + username: michael2 +  dictionary 1 + dengan fail2ban setting default
  1. Hasil Uji Coba : tidak mendapatkan password dengan mencoba dalam 6 detik
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi7_1.png "Uji Coba 7")
  
-* ### Uji Penetrasi 8 : menggunakan ncrack + username: michael2 +  dictionary 2 + dengan fail2ban
+* ### Uji Penetrasi 8 : menggunakan ncrack + username: michael2 +  dictionary 2 + dengan fail2ban setting default
 
  1. Hasil Uji Coba : tidak mendapatkan password dengan mencoba dalam 6 detik
  
@@ -291,11 +299,19 @@ ___
  
 * ### Uji Penetrasi 9 : menggunakan medusa + dictionary 1 + tanpa fail2ban
 * ### Uji Penetrasi 10 : menggunakan medusa + dictionary 2 + tanpa fail2ban
-* ### Uji Penetrasi 11 : menggunakan medusa + dictionary 1 + dengan fail2ban
-* ### Uji Penetrasi 11 : menggunakan medusa + dictionary 2 + dengan fail2ban
+* ### Uji Penetrasi 11 : menggunakan medusa + dictionary 1 + dengan fail2ban setting default
+* ### Uji Penetrasi 12 : menggunakan medusa + dictionary 2 + dengan fail2ban setting default
+* ### Uji Penetrasi 13 : dictionary 2 + dengan fail2ban setting port
+* ### Uji Penetrasi 14 : dictionary 2 + dengan fail2ban setting baned time
+* ### Uji Penetrasi 14 : dictionary 2 + dengan fail2ban setting max retries
 ___
 
 ## PENUTUP
 * ### KESIMPULAN
+ 1. Untuk mengamankan SSH dapat menggunakan Fail2ban dengan settingan default
+ 2. Untuk lebih aman dapat mengganti port, settingan default menggunakan port 22 yang telah umum diketahui. Namun port yang terbuka dapat diketahui oleh attacker dengan nmap
+ 3. Dapat menambah waktu baned, dan mengecilkan max retries.
+ 
 * ### SARAN
+ 1. Dilakukan konfigurasi advance pada fail2ban agar ssh lebih aman, contohnya dengan iptables
 
