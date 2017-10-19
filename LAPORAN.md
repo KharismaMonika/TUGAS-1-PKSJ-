@@ -271,13 +271,13 @@ ___
 * ### Uji Penetrasi 5 : menggunakan hydra + username: risma +  dictionary 1 + dengan fail2ban
 * ### Uji Penetrasi 6 : menggunakan hydra + username: risma +  dictionary 2 + dengan fail2ban
 * ### Uji Penetrasi 7 : menggunakan ncrack + username: risma +  dictionary 1 + dengan fail2ban
- 1. Hasil Uji Coba :
+ 1. Hasil Uji Coba : tidak mendapatkan password dengan mencoba dalam 6 detik
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi7_1.png "Uji Coba 7")
  
 * ### Uji Penetrasi 8 : menggunakan ncrack + username: risma +  dictionary 2 + dengan fail2ban
 
- 1. Hasil Uji Coba
+ 1. Hasil Uji Coba : tidak mendapatkan password dengan mencoba dalam 6 detik
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi8_1.png "Uji Coba 8")
  
