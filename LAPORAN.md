@@ -198,8 +198,18 @@ Pada ubuntu server :
 Pada Ubuntu desktop :
  1. sudo apt-get install hydra-gtk
  2. Masukkan password
+Pada Kali Linux Hydra sudah terinstall
 
 * ### INSTALASI NCRACK
+Pada Ubuntu desktop :
+ 1. wget https://nmap.org/ncrack/dist/ncrack-0.5.tar.gz
+ 2. tar -xvzf ncrack-0.5.tar.gz
+ 3. cd ncrack-0.5
+ 4. /configure
+ 5. make
+ 6. make install
+Pada Kali Linux Ncrack sudah terinstall
+
 * ### MEMBUAT DAN DOWNLOAD DICTIONARY PASSWORD
  1. Dictionary 1: membuat sendiri file txt berisi 5 list password
  2. Dictionary 2 : download list password berisi 100 list password
