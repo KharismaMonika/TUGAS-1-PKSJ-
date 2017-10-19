@@ -266,24 +266,24 @@ ___
  
   ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi2_3%20tampilan%20di%20server.PNG "Uji 2 Server") 
  
-* ### Uji Penetrasi 3 : menggunakan ncrack + username: risma + dictionary 1 + tanpa fail2ban
+* ### Uji Penetrasi 3 : menggunakan ncrack + username: michael2 + dictionary 1 + tanpa fail2ban
 1. Hasil uji coba :
 
 ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi3_1.png "Uji Coba 3") 
 
-* ### Uji Penetrasi 4 : menggunakan ncrack + username: risma + dictionary 2 + tanpa fail2ban
+* ### Uji Penetrasi 4 : menggunakan ncrack + username: michael2 + dictionary 2 + tanpa fail2ban
  1. Hasil Uji Coba :
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi4_1.png "Uji Coba 4")
  
 * ### Uji Penetrasi 5 : menggunakan hydra + username: risma +  dictionary 1 + dengan fail2ban
 * ### Uji Penetrasi 6 : menggunakan hydra + username: risma +  dictionary 2 + dengan fail2ban
-* ### Uji Penetrasi 7 : menggunakan ncrack + username: risma +  dictionary 1 + dengan fail2ban
+* ### Uji Penetrasi 7 : menggunakan ncrack + username: michael2 +  dictionary 1 + dengan fail2ban
  1. Hasil Uji Coba : tidak mendapatkan password dengan mencoba dalam 6 detik
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi7_1.png "Uji Coba 7")
  
-* ### Uji Penetrasi 8 : menggunakan ncrack + username: risma +  dictionary 2 + dengan fail2ban
+* ### Uji Penetrasi 8 : menggunakan ncrack + username: michael2 +  dictionary 2 + dengan fail2ban
 
  1. Hasil Uji Coba : tidak mendapatkan password dengan mencoba dalam 6 detik
  
