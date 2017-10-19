@@ -80,6 +80,14 @@ Ncrack adalah alat cracking otentikasi jaringan berkecepatan tinggi. Ini dibangu
 
 Fitur Ncrack mencakup antarmuka yang sangat fleksibel yang memberi pengguna kontrol penuh atas operasi jaringan, memungkinkan serangan bruteforcing yang sangat canggih, template waktu untuk kemudahan penggunaan, interaksi runtime yang mirip dengan Nmap dan banyak lagi. Protokol yang didukung meliputi RDP, SSH, HTTP (S), SMB, POP3 (S), VNC, FTP, SIP, Redis, PostgreSQL, MySQL, dan Telnet.
 
+* ### MEDUSA
+
+Medusa juga merupakan password cracking alat yang mirip dengan THC Hydra. Ini klaim menjadi alat paralel cepat, modular dan masuk kasar memaksa. Mendukung HTTP, FTP, CVS, AFP, IMAP, MS SQL, MYSQL, NCP, NNTP, POP3, PostgreSQL, pcAnywhere, rlogin, SMB, rsh, SMTP, SNMP, SSH, SVN, VNC, VmAuthd dan Telnet. Sementara retak password, tuan rumah, username dan password dapat menjadi masukan yang fleksibel saat melakukan serangan.
+
+Medusa adalah alat baris perintah, sehingga Anda perlu belajar perintah sebelum menggunakan alat. Efisiensi alat tergantung pada konektivitas jaringan. Pada sistem lokal, dapat menguji 2000 password per menit.
+
+Dengan alat ini, Anda juga dapat melakukan serangan paralel. Misalkan Anda ingin memecahkan password dari account email beberapa secara bersamaan. Anda dapat menentukan daftar nama bersama dengan daftar password.
+
 * ### FAIL2BAND
 
 Fail2Ban adalah kerangka kerja perangkat lunak pencegahan intrusi yang melindungi server komputer dari serangan brute force. Ditulis dalam bahasa pemrograman Python, ia dapat berjalan pada sistem POSIX yang memiliki antarmuka ke sistem kontrol paket atau firewall yang terpasang secara lokal, misalnya iptables atau TCP Wrapper.
@@ -281,6 +289,10 @@ ___
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi8_1.png "Uji Coba 8")
  
+* ### Uji Penetrasi 9 : menggunakan medusa + dictionary 1 + tanpa fail2ban
+* ### Uji Penetrasi 10 : menggunakan medusa + dictionary 2 + tanpa fail2ban
+* ### Uji Penetrasi 11 : menggunakan medusa + dictionary 1 + dengan fail2ban
+* ### Uji Penetrasi 11 : menggunakan medusa + dictionary 2 + dengan fail2ban
 ___
 
 ## PENUTUP
