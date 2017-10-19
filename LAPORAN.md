@@ -41,6 +41,8 @@ Ubuntu server walaupun hanya menggunakan CLI (Coomand line interface) tidaklah s
 
 * ### UBUNTU DEKSTOP
 
+* ### KALI LINUX
+Kali Linux adalah keluarga sistem Debian yang didesign untuk digital forensik dan testing penetrasi sistem. Banyak dari package pada Kali Linux dikembangkan dari repositori Debian. Kali Linux juga memiliki project untuk dikembangkan pada perangkat Android bernama Kali Linux NetHunter. 
 
 * ### SSH SERVER
 
@@ -155,6 +157,37 @@ ___
  28.	Pilih layout keyboard yang sesuai dengan keyboard anda, lalu klik “Continue”.
  29.	Isikan detail user yang akan digunakan pertama kali, lalu klik “Continue”.
  30.	Silakan tunggu sampai proses instalasi selesai.
+
+* ### INSTALASI KALI LINUX
+ 1.	Download Kali Linux pada https://www.kali.org/downloads
+ 2.	Buat Virtual Machine yang baru, Isikan Nama virtual machine, type : Linux, Version : Debian 64/32-bit, isikan jumlah alokasi memory pada contoh ini sebesar 1 GB / 1024 MB
+ 3.	Membuat virtual hard disk
+ 4.	Memilih tipe file hard disk. Ada banyak tipe Harddisk virtual, disini kita menggunakan VDI yaitu tipe standard yang digunakan VirtualBox,
+ 5.	Tentukan kapasitas harddisk minimum untuk kali Linux 20GB
+ 6.	Dynamically Allocated, hanya menggunakan alokasi harddisk yang terpakai. Sedangkan Fixed size akan mengalokasikan harddisk sesuai yang anda buat. Misalkan anda membuat harddisk dengan kapasitas 50GB, sedangkan yang terpakai hanya 20GB. Pada dynamic, harddisk real anda akan berkurang kapasitasnya 50GB, sedangkan pada Fixed, akan berkurang 20GB.
+ 7.	Pilih create dan Virtual Machine list anda bertambah
+ 8.	Jalankan VM dan untuk proses pertama anda diminta memasukan file .iso yang sudah didownload
+ 9.	Tunggu hingga muncul pilihan instalasi
+10.	Pilih Graphical Instal
+11.	Pilih Bahasa
+12.	Pilih Lokasi
+13.	Pilih Kombinasi Lokasi dan Bahasa
+14.	Pilih Type Keyboard
+15.	Buat nama server (kosongi jika tidak ada)
+16.	Buat nama hostname
+17.	Buat nama domain
+18.	Buat password untuk 'root' system
+19.	Pilih pembagian waktu, lalu continue
+20.	Pilih Guided-use entire disk and set up LVM
+21.	Pilih disk yang akan dipartisi
+22. Pilih All files in one partition (recommended), lalu continue
+23. Pilih Yes lalu continue
+24. Pilih finish lalu continue
+25. Pilih Yes lalu continue, tunggu hingga proses selesai. Setelah selesai pilih mirror network, lalu jika tidak menggunakan proxy, kosongkan kolom proxy, tekan continue
+26. Jika mirror network gagal, tidak perlu menggunakan mirror network, pilih yes, lalu continue
+27. Tunggu hingga proses selesai, dan muncul dialog instalasi GRUB, pilih yes lalu continue
+28. Pilih device, lalu continue, tunggu hingga proses selesai
+29. Pilih continue, instalasi telah selesai
 
 * ### INSTALASI SSH SERVER
 Pada ubuntu server : 
