@@ -284,8 +284,19 @@ ___
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi4_1.png "Uji Coba 4")
  
-* ### Uji Penetrasi 5 : menggunakan hydra + username: risma +  dictionary 1 + dengan fail2ban setting default
-* ### Uji Penetrasi 6 : menggunakan hydra + username: risma +  dictionary 2 + dengan fail2ban setting default
+* ### Uji Penetrasi 5 : menggunakan hydra + username: michael2 +  dictionary 1 + dengan fail2ban setting default
+ 1. Hasil Uji coba, koneksi ditolak, sehingga SSH gagal
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1 PKSJ-/blob/5800e1e26901235c3a30c1bf527e22efa44c297f/SCREENSHOOT/uji_penetrasi5_1.png "Uji Coba 5")
+ 
+ 2. Ketika dicek pada server, ternyata IP kena firewall dengan iptables yang dibuat oleh fail2ban
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/5800e1e26901235c3a30c1bf527e22efa44c297f/SCREENSHOOT/uji_penetrasi5_2.png "iptables")
+ 
+* ### Uji Penetrasi 6 : menggunakan hydra + username: michael2 +  dictionary 2 + dengan fail2ban setting default
+
+ 1. Hasil Uji Coba:SSH gagal karena terkena firewall fail2ban
+ 
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/5800e1e26901235c3a30c1bf527e22efa44c297f/SCREENSHOOT/uji_penetrasi6_1.png "Uji 6")
+
 * ### Uji Penetrasi 7 : menggunakan ncrack + username: michael2 +  dictionary 1 + dengan fail2ban setting default
  1. Hasil Uji Coba : tidak mendapatkan password dengan mencoba dalam 6 detik
  
@@ -301,7 +312,17 @@ ___
 * ### Uji Penetrasi 10 : menggunakan medusa + dictionary 2 + tanpa fail2ban
 * ### Uji Penetrasi 11 : menggunakan medusa + dictionary 1 + dengan fail2ban setting default
 * ### Uji Penetrasi 12 : menggunakan medusa + dictionary 2 + dengan fail2ban setting default
-* ### Uji Penetrasi 13 : dictionary 2 + dengan fail2ban setting port
+* ### Uji Penetrasi 13 : dictionary 2 + dengan fail2ban setting port diganti dengan port 222
+uji coba dilakukan dengan menggunakan ncrack dan mengganti port SSH menjadi 222
+ 1.  Hasil Uji Coba:
+ Uji coba menunjukkan bahwa password berhasil didapatkan, karena fail2ban hanya melindungi port 22,
+ 
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi7_2.png "Uji Coba 13")
+ 
+ 2. Ketika mencoba kembali menggunakan port 22
+ 
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi7_3.png "Uji Coba 13")
+ 
 * ### Uji Penetrasi 14 : dictionary 2 + dengan fail2ban setting baned time
 * ### Uji Penetrasi 14 : dictionary 2 + dengan fail2ban setting max retries
 ___
