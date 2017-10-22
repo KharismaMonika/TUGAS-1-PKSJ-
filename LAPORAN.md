@@ -309,9 +309,30 @@ ___
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi8_1.png "Uji Coba 8")
  
 * ### Uji Penetrasi 9 : menggunakan medusa + dictionary 1 + tanpa fail2ban
+
+ 1. Hasil Uji Coba : mendapatkan password pada percobaan ke 10
+ 
+ ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi9_1.png "Uji Coba 9a")
+ ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi9_2.png "Uji Coba 9b")
+
 * ### Uji Penetrasi 10 : menggunakan medusa + dictionary 2 + tanpa fail2ban
+
+ 1. Hasil Uji Coba : mendapatkan password pada percobaan ke 100
+ 
+ ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi10_1.png "Uji Coba 10")
+
 * ### Uji Penetrasi 11 : menggunakan medusa + dictionary 1 + dengan fail2ban setting default
+
+ 1. Hasil Uji Coba : tidak mendapatkan password karena koneksi ditolak
+
+ ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi11_1.png "Uji Coba 11")
+
 * ### Uji Penetrasi 12 : menggunakan medusa + dictionary 2 + dengan fail2ban setting default
+
+ 1. Hasil Uji Coba : tidak mendapatkan password karena koneksi ditolak
+
+ ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi12_1.png "Uji Coba 12")
+
 * ### Uji Penetrasi 13 : dictionary 2 + dengan fail2ban setting port diganti dengan port 222
 uji coba dilakukan dengan menggunakan ncrack dan mengganti port SSH menjadi 222
  1.  Hasil Uji Coba:
