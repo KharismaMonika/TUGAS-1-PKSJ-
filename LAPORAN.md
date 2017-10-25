@@ -345,7 +345,13 @@ uji coba dilakukan dengan menggunakan ncrack dan mengganti port SSH menjadi 222
  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi7_3.png "Uji Coba 13")
  
 * ### Uji Penetrasi 14 : dictionary 2 + dengan fail2ban setting baned time
-* ### Uji Penetrasi 14 : dictionary 2 + dengan fail2ban setting max retries
+
+ 1. Bantime pada fail2ban diubah menjadi 60
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/bantime_60.png "Uji Coba 14")
+
+ 2. Hasilnya adalah
+ ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/hasil_bantime_60.png "Uji Coba 14")
+
 ___
 
 ## PENUTUP
