@@ -88,7 +88,7 @@ Medusa adalah alat baris perintah, sehingga Anda perlu belajar perintah sebelum 
 
 Dengan alat ini, Anda juga dapat melakukan serangan paralel. Misalkan Anda ingin memecahkan password dari account email beberapa secara bersamaan. Anda dapat menentukan daftar nama bersama dengan daftar password.
 
-* ### FAIL2BAND
+* ### FAIL2BAN
 
 Fail2Ban adalah kerangka kerja perangkat lunak pencegahan intrusi yang melindungi server komputer dari serangan brute force. Ditulis dalam bahasa pemrograman Python, ia dapat berjalan pada sistem POSIX yang memiliki antarmuka ke sistem kontrol paket atau firewall yang terpasang secara lokal, misalnya iptables atau TCP Wrapper.
 
@@ -349,17 +349,20 @@ uji coba dilakukan dengan menggunakan ncrack dan mengganti port SSH menjadi 222
  1. Bantime pada fail2ban diubah menjadi 60
  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/bantime_60.png "Uji Coba 14")
 
- 2. Hasilnya adalah
+ 2. Hasilnya adalah waktu pencarian yang meningkat
  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/hasil_bantime_60.png "Uji Coba 14")
 
 ___
 
 ## PENUTUP
 * ### KESIMPULAN
- 1. Untuk mengamankan SSH dapat menggunakan Fail2ban dengan settingan default
+ 1. Untuk mengamankan SSH dapat menggunakan Fail2ban dengan settingan default tetapi tidak menutup kemungkinan user password tetap dapat ditemukan
  2. Untuk lebih aman dapat mengganti port, settingan default menggunakan port 22 yang telah umum diketahui. Namun port yang terbuka dapat diketahui oleh attacker dengan nmap
- 3. Dapat menambah waktu baned, dan mengecilkan max retries.
+ 3. Dapat menambah waktu baned (bantime) atau mengecilkan max retries pada settingan fail2ban sehingga menambah waktu yang dibutuhkan attacker untuk melakukan pencarian password
+
  
 * ### SARAN
- 1. Dilakukan konfigurasi advance pada fail2ban agar ssh lebih aman, contohnya dengan iptables
+ 1. Dilakukan konfigurasi advance pada fail2ban agar ssh lebih aman, dengan setting action pembentukan iptables
+ 2. Mengubah keamanan ssh dengan tidak menggunakan password untuk autentikasi tetapi  menggunakan key based authentication (RSAKey)
+ 3. Buat sebuah kombinasi password yang unik sehingga tidak mudah dilakukan brute force attack
 
