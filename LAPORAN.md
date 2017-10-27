@@ -2,7 +2,6 @@
  OLEH 
 - 5114100092    KHARISMA MONIKA
 - 5114100131    Michael Dave
-- 5114100081	M.Luqmanul Hakim
 
 ___
 
