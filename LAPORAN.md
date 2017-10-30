@@ -16,7 +16,6 @@ Dalam uji coba ini, dilakukan penetrasi menggunakan bruteforce attack menggunaka
 
 ### TUJUAN
  1 Melakukan implementasi SSH Brute Force Attack pada server.
- 
  2 Melakukan implementasi Fail2ban untuk mengamankan server.
 ### MANFAAT
 * Menerapkan ilmu pengetahuan yang dipelajari mengenai keamanan server.
@@ -41,6 +40,8 @@ Ubuntu server adalah ubuntu yang didesain untuk di install di server. Perbedaan 
 Ubuntu server walaupun hanya menggunakan CLI (Coomand line interface) tidaklah sesusah yang dikira karena sudah banyak tutorial dan help bawaan dari perintah itu sendiri. Yang dibutuhkan adalah kemauan membaca manual dan belajar bahasa inggris.
 
 * ### UBUNTU DEKSTOP
+
+Ubuntu dekstop adalah sistem operasi ubuntu dengan GUI (Graphic User Interface)
 
 * ### KALI LINUX
 Kali Linux adalah keluarga sistem Debian yang didesign untuk digital forensik dan testing penetrasi sistem. Banyak dari package pada Kali Linux dikembangkan dari repositori Debian. Kali Linux juga memiliki project untuk dikembangkan pada perangkat Android bernama Kali Linux NetHunter. 
@@ -238,9 +239,8 @@ Dalam hal ini sengaja digunakan list password yang sedikit karena untuk mempersi
  2. Ketikkan perintah untuk download "sudo apt-get install fail2ban"
 
 * ### MENGANTI KONFIGURASI PADA SSH
- 1. 
- 2.
- 
+  1. Mengganti port
+  2. Mengubah bandtime
 ___
 
 ## HASIL UJI COBA
