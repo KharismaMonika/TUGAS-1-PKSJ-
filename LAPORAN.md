@@ -41,7 +41,7 @@ Ubuntu server walaupun hanya menggunakan CLI (Coomand line interface) tidaklah s
 
 * ### UBUNTU DEKSTOP
 
-Ubuntu dekstop adalah sistem operasi ubuntu dengan GUI (Graphic User Interface)
+merupakan salah satu distribusi Linux yang berbasiskan Debian dan didistribusikan sebagai perangkat lunak bebas. Nama Ubuntu berasal dari filosofi dari Afrika Selatan yang berarti "kemanusiaan kepada sesama". Ubuntu dirancang untuk kepentingan penggunaan pribadi, namun versi server Ubuntu juga tersedia, dan telah dipakai secara luas.
 
 * ### KALI LINUX
 Kali Linux adalah keluarga sistem Debian yang didesign untuk digital forensik dan testing penetrasi sistem. Banyak dari package pada Kali Linux dikembangkan dari repositori Debian. Kali Linux juga memiliki project untuk dikembangkan pada perangkat Android bernama Kali Linux NetHunter. 
@@ -263,15 +263,15 @@ ___
  
 * ### Uji Penetrasi 2 : menggunakan hydra + username: risma +  dictionary 2 + tanpa fail2ban
 
- 1. Penetrasi menggunakan dictionary 2
+ 1. Penetrasi menggunakan dictionary 2:
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi2_1%20dict.PNG "Dictionary 2")
  
- 2. Output pada hydra
+ 2. Output pada hydra:
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi2_2%20output%20hydra.PNG "Uji 2 sukses")
  
- 3. Output pada server
+ 3. Output pada server:
  
   ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi2_3%20tampilan%20di%20server.PNG "Uji 2 Server") 
  
@@ -294,7 +294,7 @@ ___
  
 * ### Uji Penetrasi 6 : menggunakan hydra + username: michael2 +  dictionary 2 + dengan fail2ban setting default
 
- 1. Hasil Uji Coba:SSH gagal karena terkena firewall fail2ban
+ 1. Hasil Uji Coba:SSH gagal karena terkena firewall fail2ban:
  
  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/5800e1e26901235c3a30c1bf527e22efa44c297f/SCREENSHOOT/uji_penetrasi6_1.png "Uji 6")
 
@@ -318,7 +318,7 @@ ___
 
 * ### Uji Penetrasi 10 : menggunakan medusa + dictionary 2 + tanpa fail2ban
 
- 1. Hasil Uji Coba : mendapatkan password pada percobaan ke 100
+ 1. Hasil Uji Coba : mendapatkan password pada percobaan ke 100:
  
  ![alt text]( https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi10_1.png "Uji Coba 10")
 
@@ -341,29 +341,29 @@ uji coba dilakukan dengan menggunakan ncrack dan mengganti port SSH menjadi 222
  
  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi7_2.png "Uji Coba 13")
  
- 2. Ketika mencoba kembali menggunakan port 22
+ 2. Ketika mencoba kembali menggunakan port 22:
  
  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/uji_penetrasi7_3.png "Uji Coba 13")
  
 * ### Uji Penetrasi 14 : dictionary 2 + dengan fail2ban setting baned time
 
- 1. Bantime pada fail2ban diubah menjadi 60
+ 1. Bantime pada fail2ban diubah menjadi 60:
  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/bantime_60.png "Uji Coba 14")
 
- 2. Hasilnya adalah waktu pencarian yang meningkat
+ 2. Hasilnya adalah waktu pencarian yang meningkat:
  ![alt text](https://github.com/KharismaMonika/TUGAS-1-PKSJ-/blob/master/SCREENSHOOT/hasil_bantime_60.png "Uji Coba 14")
 
 ___
 
 ## PENUTUP
 * ### KESIMPULAN
- 1. Untuk mengamankan SSH dapat menggunakan Fail2ban dengan settingan default tetapi tidak menutup kemungkinan user password tetap dapat ditemukan
- 2. Untuk lebih aman dapat mengganti port, settingan default menggunakan port 22 yang telah umum diketahui. Namun port yang terbuka dapat diketahui oleh attacker dengan nmap
- 3. Dapat menambah waktu baned (bantime) atau mengecilkan max retries pada settingan fail2ban sehingga menambah waktu yang dibutuhkan attacker untuk melakukan pencarian password
+ 1. Untuk mengamankan SSH dapat menggunakan Fail2ban dengan settingan default tetapi tidak menutup kemungkinan user password tetap dapat ditemukan.
+ 2. Untuk lebih aman dapat mengganti port, settingan default menggunakan port 22 yang telah umum diketahui. Namun port yang terbuka dapat diketahui oleh attacker dengan nmap.
+ 3. Dapat menambah waktu baned (bantime) atau mengecilkan max retries pada settingan fail2ban sehingga menambah waktu yang dibutuhkan attacker untuk melakukan pencarian password.
 
  
 * ### SARAN
- 1. Dilakukan konfigurasi advance pada fail2ban agar ssh lebih aman, dengan setting action pembentukan iptables
- 2. Mengubah keamanan ssh dengan tidak menggunakan password untuk autentikasi tetapi  menggunakan key based authentication (RSAKey)
- 3. Buat sebuah kombinasi password yang unik sehingga tidak mudah dilakukan brute force attack
+ 1. Dilakukan konfigurasi advance pada fail2ban agar ssh lebih aman, dengan setting action pembentukan iptables.
+ 2. Mengubah keamanan ssh dengan tidak menggunakan password untuk autentikasi tetapi  menggunakan key based authentication (RSAKey).
+ 3. Buat sebuah kombinasi password yang unik sehingga tidak mudah dilakukan brute force attack.
 
