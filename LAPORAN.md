@@ -52,7 +52,7 @@ SSH merupakan singkatan dari Secure Shell yang merupakan suatu aplikasi penggant
 
 Cara Kerja SSH Server Pada saat suatu client mencoba mengakses suatu linux server melalui SSH. SH daemon yang berjalan baik pada linux server maupun SSH client telah mempunyai pasangan public/private key yang masing-masing menjadi identitas SSH bagi keduanya.   
 
-Berikut Tahapan-tahapannya / Proses Kerja SSH  : 
+Berikut Tahapan-tahapannya / Proses Kerja SSH : 
  1.	Client bind pada local port nomor besar dan melakukan koneksi ke port 22 pada server.
  2.	Client dan server setuju untuk menggunakan sesi SSH tertentu. Hal ini penting karena SSH v.1 dan v.2 tidak kompatibel. 
  3.	Client meminta public key dan host key milik server. 
